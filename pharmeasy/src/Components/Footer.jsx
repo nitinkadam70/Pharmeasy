@@ -67,22 +67,20 @@ const Footer = () => {
                     </div>
                 </div>
             </Flex>
-            <div style={{ display: "flex" }}>
-                <div>
-                    <Heddline style={{ padding: "0px 0px 0px 150px" }}>Our payment partners</Heddline>
-                    <div style={{ paddingLeft: "145px", display: "wrap", justifyContent: "space-around" }}>
-                        <ImageP src="https://assets.pharmeasy.in/web-assets/dist/af0c6812.svg" alt="" />
-                        <ImageP src="https://assets.pharmeasy.in/web-assets/dist/0e010044.svg" alt="" />
-                        <ImageP src="https://assets.pharmeasy.in/web-assets/dist/1066bb1f.svg" alt="" />
-                        <ImageP src="https://assets.pharmeasy.in/web-assets/dist/3a1a533d.svg" alt="" />
-                        <ImageP src="https://assets.pharmeasy.in/web-assets/dist/fbea1701.svg" alt="" />
-                        <ImageP src="https://assets.pharmeasy.in/web-assets/dist/0aca2077.svg" alt="" />
-                        <ImageP src="https://assets.pharmeasy.in/web-assets/dist/44a51ca5.svg" alt="" />
-                        <ImageP src="https://assets.pharmeasy.in/web-assets/dist/d058b00d.svg" alt="" />
-                        <ImageP src="https://assets.pharmeasy.in/web-assets/dist/e9445364.svg" alt="" />
-                        <ImageP src="	https://assets.pharmeasy.in/web-assets/dist/6e09c713.svg" alt="" />
-                        <Para>© 2022 PharmEasy. All Rights Reserved</Para>
-                    </div>
+            <div>
+                <Heddline style={{ padding: "0px 0px 0px 150px" }}>Our payment partners</Heddline>
+                <div style={{ display: "wrap", justifyContent: "space-around" }}>
+                    <ImageP src="https://assets.pharmeasy.in/web-assets/dist/af0c6812.svg" alt="" />
+                    <ImageP src="https://assets.pharmeasy.in/web-assets/dist/0e010044.svg" alt="" />
+                    <ImageP src="https://assets.pharmeasy.in/web-assets/dist/1066bb1f.svg" alt="" />
+                    <ImageP src="https://assets.pharmeasy.in/web-assets/dist/3a1a533d.svg" alt="" />
+                    <ImageP src="https://assets.pharmeasy.in/web-assets/dist/fbea1701.svg" alt="" />
+                    <ImageP src="https://assets.pharmeasy.in/web-assets/dist/0aca2077.svg" alt="" />
+                    <ImageP src="https://assets.pharmeasy.in/web-assets/dist/44a51ca5.svg" alt="" />
+                    <ImageP src="https://assets.pharmeasy.in/web-assets/dist/d058b00d.svg" alt="" />
+                    <ImageP src="https://assets.pharmeasy.in/web-assets/dist/e9445364.svg" alt="" />
+                    <ImageP src="	https://assets.pharmeasy.in/web-assets/dist/6e09c713.svg" alt="" />
+                    <Para>© 2022 PharmEasy. All Rights Reserved</Para>
                 </div>
             </div>
 

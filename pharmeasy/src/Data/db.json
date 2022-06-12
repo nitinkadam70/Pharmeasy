@@ -1,0 +1,236 @@
+{
+    "offers": [
+        {
+            "img": "https://cms-contents.pharmeasy.in/offer/99a287decc6-FLAT_30OFF.jpg?dim=60x0&dpr=1&q=100",
+            "discount": "Flat 30% off + FREE 3 months Plus Membership"
+        },
+        {
+            "img": "https://cms-contents.pharmeasy.in/offer/2846076d5d2-Diagnostics-10-min.png?dim=60x0&dpr=1&q=100",
+            "discount": "Order medicines worth 799 and get FLAT 400 OFF on Comprehensive Full Body checkup with Vitamin D and B12."
+        },
+        {
+            "img": "https://cms-contents.pharmeasy.in/offer/16080f30d6a-1.jpg?dim=60x0&dpr=1&q=100",
+            "discount": "Get flat 23% off on Medicine + Get 3 live Byju’s online classes at Rs 299."
+        },
+        {
+            "img": "https://cms-contents.pharmeasy.in/offer/81308cc59b5-FLAT_20.jpg?dim=60x0&dpr=1&q=100",
+            "discount": "Flat 20% OFF + up to Rs.1000 surprise cashback"
+        },
+        {
+            "img": "https://cms-contents.pharmeasy.in/offer/bb20b7c6548-2.jpg?dim=60x0&dpr=1&q=100",
+            "discount": "Get flat 23% off on medicine + Get 15% upto Rs.200 Instant Discount + Flat Rs.300 AbhiBus Cashback"
+        },
+        {
+            "img": "https://cms-contents.pharmeasy.in/offer/beff77d2d65-Diagnostics-11-min.png?dim=60x0&dpr=1&q=100",
+            "discount": "Get FLAT Rs.1000 OFF on booking 2 Comprehensive Full Body checkup with Vitamin D and B12 Packages."
+        },
+        {
+            "img": "https://cms-contents.pharmeasy.in/offer/beff77d2d65-Diagnostics-11-min.png?dim=60x0&dpr=1&q=100",
+            "discount": "Get FLAT Rs.1000 OFF on booking 2 Comprehensive Full Body checkup with Vitamin D and B12 Packages."
+        },
+        {
+            "img": "https://cms-contents.pharmeasy.in/offer/beff77d2d65-Diagnostics-11-min.png?dim=60x0&dpr=1&q=100",
+            "discount": "Get FLAT Rs.1000 OFF on booking 2 Comprehensive Full Body checkup with Vitamin D and B12 Packages."
+        },
+        {
+            "img": "https://cms-contents.pharmeasy.in/offer/bfdfc0c458c-Diagnostics-08-min.png?dim=60x0&dpr=1&q=100",
+            "discount": "Get FLAT Rs.300 OFF on orders above Rs 1399"
+        },
+        {
+            "img": "https://cms-contents.pharmeasy.in/offer/dceebedd00f-Diagnostics-09-min.png",
+            "discount": "Get flat 23% off on medicine + Get 15% upto Rs.200 Instant Discount + Flat Rs.300 AbhiBus Cashback"
+        },
+        {
+            "img": "https://cms-contents.pharmeasy.in/offer/99a287decc6-FLAT_30OFF.jpg?dim=60x0&dpr=1&q=100",
+            "discount": "Flat 30% off + FREE 3 months Plus Membership"
+        },
+        {
+            "img": "https://cms-contents.pharmeasy.in/offer/2846076d5d2-Diagnostics-10-min.png?dim=60x0&dpr=1&q=100",
+            "discount": "Order medicines worth 799 and get FLAT 400 OFF on Comprehensive Full Body checkup with Vitamin D and B12."
+        }
+    ],
+    "labTest": [
+        {
+            "image": "https://assets.pharmeasy.in/web-assets/dist/6b3d644c.svg",
+            "data": "Total Cholestrol",
+            "price": "₹ 200",
+            "test": "Available At 1 ceritified lab"
+        },
+        {
+            "image": "https://assets.pharmeasy.in/web-assets/dist/dea295a0.svg",
+            "data": "Comprehensive Full Body Checkup with Vitamin D & B12",
+            "price": "₹ 350",
+            "test": "Available At 1 ceritified lab"
+        },
+        {
+            "image": "https://assets.pharmeasy.in/web-assets/dist/6b3d644c.svg",
+            "data": "Blood Group",
+            "price": "₹ 859",
+            "test": "Available At 1 ceritified lab"
+        },
+        {
+            "image": "https://assets.pharmeasy.in/web-assets/dist/dea295a0.svg",
+            "data": "Dibetetes Care",
+            "price": "₹ 904",
+            "test": "Available At 1 ceritified lab"
+        },
+        {
+            "image": "https://assets.pharmeasy.in/web-assets/dist/6b3d644c.svg",
+            "data": "Uric Acid",
+            "price": "₹ 568",
+            "test": "Available At 1 ceritified lab"
+        },
+        {
+            "image": "https://assets.pharmeasy.in/web-assets/dist/dea295a0.svg",
+            "data": "Aarogyam C",
+            "price": "₹ 200",
+            "test": "Available At 1 ceritified lab"
+        },
+        {
+            "image": "https://assets.pharmeasy.in/web-assets/dist/dea295a0.svg",
+            "data": "Tyroid Care",
+            "price": "₹ 569",
+            "test": "Available At 1 ceritified lab"
+        },
+        {
+            "image": "https://assets.pharmeasy.in/web-assets/dist/dea295a0.svg",
+            "data": "Womens Advanced Health Care",
+            "price": "₹ 999",
+            "test": "Available At 1 ceritified lab"
+        },
+        {
+            "image": "https://assets.pharmeasy.in/web-assets/dist/6b3d644c.svg",
+            "data": "Anti-Mullerian Hormone (AMH)",
+            "price": "₹ 499",
+            "test": "Available At 1 ceritified lab"
+        }
+    ],
+    "products": [
+        {
+            "avator": "https://cms-contents.pharmeasy.in/carousel_item/7e5e174fdfb-OneTouchWeb.jpg?dim=146x0&dpr=1&q=100",
+            "title": ""
+        },
+        {
+            "avator": "https://cms-contents.pharmeasy.in/carousel_item/e8c11c3d8e1-Wellman_Dweb.jpg?dim=146x0&dpr=1&q=100",
+            "title": ""
+        },
+        {
+            "avator": "https://cms-contents.pharmeasy.in/carousel_item/e8c11c3d8e1-Wellman_Dweb.jpg?dim=146x0&dpr=1&q=100",
+            "title": ""
+        },
+        {
+            "avator": "https://cms-contents.pharmeasy.in/carousel_item/c572570b5ce-Liveasy.jpg?dim=146x0&dpr=1&q=100",
+            "title": ""
+        },
+        {
+            "avator": "https://cms-contents.pharmeasy.in/carousel_item/bf633425db6-web_johnson.jpg?dim=146x0&dpr=1&q=100",
+            "title": ""
+        },
+        {
+            "avator": "https://cms-contents.pharmeasy.in/carousel_item/2d987111a15-Featured-banner_Revital.png?dim=146x0&dpr=2&q=100",
+            "title": ""
+        },
+        {
+            "avator": "https://cms-contents.pharmeasy.in/carousel_item/ac01791d842-Featured-banner_Volini.png?dim=146x0&dpr=2&q=100",
+            "title": ""
+        },
+        {
+            "avator": "https://cms-contents.pharmeasy.in/carousel_item/db82ec1a424-web_Curatio.jpg?dim=146x0&dpr=2&q=100",
+            "title": ""
+        },
+        {
+            "avator": "https://cms-contents.pharmeasy.in/carousel_item/93092a81f8d-Featured-banner_Digine.jpg?dim=146x0&dpr=2&q=100",
+            "title": ""
+        },
+        {
+            "avator": "https://cms-contents.pharmeasy.in/carousel_item/9d406684215-Featured-brand_web_Plum.jpg?dim=146x0&dpr=2&q=100",
+            "title": ""
+        },
+        {
+            "avator": "https://cms-contents.pharmeasy.in/carousel_item/9d406684215-Featured-brand_web_Plum.jpg?dim=146x0&dpr=2&q=100",
+            "title": ""
+        },
+        {
+            "avator": "https://cms-contents.pharmeasy.in/carousel_item/0e3affec097-The_Natural_Wash_Dweb.jpg?dim=146x0&dpr=2&q=100",
+            "title": ""
+        },
+        {
+            "avator": "https://cms-contents.pharmeasy.in/carousel_item/f8493a13be2-web_Pigeon.jpg?dim=146x0&dpr=2&q=100",
+            "title": ""
+        },
+        {
+            "avator": "https://cms-contents.pharmeasy.in/carousel_item/f8493a13be2-web_Pigeon.jpg?dim=146x0&dpr=2&q=100",
+            "title": ""
+        },
+        {
+            "avator": "https://cms-contents.pharmeasy.in/carousel_item/0845572266f-Everherb.jpg?dim=146x0&dpr=2&q=100",
+            "title": ""
+        },
+        {
+            "avator": "https://cms-contents.pharmeasy.in/carousel_item/22256dfc61d-web_Themomosco.jpg?dim=146x0&dpr=2&q=100",
+            "title": ""
+        }
+    ],
+    "productsTwo": [
+        {
+            "srcSet": "https://cdn01.pharmeasy.in/dam/products_otc/D95288/onetouch-select-plus-simple-glucometer-with-10-free-strips-2-1645456739.jpg?dim=224x0&dpr=1&q=100",
+            "alt": "Onetouch Select Plus Simple Glucometer With 10 Free Strips",
+            "mrp": "405",
+            "discount": "25%"
+        },
+        {
+            "alt": "Upakarma Shilajit Extracts 100% Natural & Pure Shilajeet For Men - 90 Capsules",
+            "srcSet": "https://cdn01.pharmeasy.in/dam/products_otc/D62974/upakarma-shilajit-extracts-100-natural-pure-shilajeet-for-men-90-capsules-2-1650959145.jpg?dim=224x0&dpr=1&q=100",
+            "mrp": "805",
+            "discount": "15%"
+        },
+        {
+            "srcSet": "https://cdn01.pharmeasy.in/dam/products_otc/Q68820/plum-green-tea-clear-face-mask-60-gm-2-1641794396.jpg?dim=224x0&dpr=1&q=100",
+            "alt": "Plum Green Tea Clear Face Mask- 60 Gm",
+            "mrp": "582",
+            "discount": "30%"
+        },
+        {
+            "alt": "Digene Gel Acidity & Gas Relief - 200ml Orange Flavour",
+            "srcSet": "https://cdn01.pharmeasy.in/dam/products_otc/255389/digene-gel-acidity-gas-relief-200ml-orange-flavour-2-1651912542.jpg?dim=224x0&dpr=1&q=100",
+            "mrp": "5050",
+            "discount": "2%"
+        },
+        {
+            "alt": "Volini Maxx Pain Relief Spray Bottle Of 55 G",
+            "srcSet": "https://cdn01.pharmeasy.in/dam/products_otc/I35531/volini-maxx-pain-relief-spray-bottle-of-55-g-2-1641788080.jpg?dim=224x0&dpr=1&q=100",
+            "mrp": "825",
+            "discount": "5%"
+        },
+        {
+            "alt": "Revital H Men Multivitamin With Zinc & Ginseng For Immunity, Strong Bones & Energy (10 Capsules)",
+            "srcSet": "https://cdn01.pharmeasy.in/dam/products_otc/270551/revital-h-men-multivitamin-with-zinc-ginseng-for-immunity-strong-bones-energy-10-capsules-1-1654078581.jpg?dim=224x0&dpr=1&q=100",
+            "mrp": "658",
+            "discount": "55%"
+        },
+        {
+            "alt": "Pharmeasy Orthopaedic Electric Heat Belt, Regular",
+            "srcSet": "https://cdn01.pharmeasy.in/dam/products_otc/E16289/pharmeasy-orthopaedic-electric-heat-belt-regular-2-1654251860.jpg?dim=224x0&dpr=1&q=100",
+            "mrp": "40",
+            "discount": "80%"
+        },
+        {
+            "srcSet": "https://cdn01.pharmeasy.in/dam/products_otc/A49832/mother-sparsh-98-water-based-wipes-plant-derived-fabric-i-mild-scented-80-pcs-pack-pack-of-3-2-1641792694.jpg?dim=224x0&dpr=1&q=100",
+            "alt": "Mother Sparsh 98% Water Based Wipes Plant Derived Fabric I Mild Scented, 80 Pcs/pack, Pack Of 3",
+            "mrp": "505",
+            "discount": "5%"
+        },
+        {
+            "alt": "Pentasure Dm Vanilla Cinnamon Diabetes Care Powder Tin Of 1000 G",
+            "srcSet": "https://cdn01.pharmeasy.in/dam/products_otc/I34661/pentasure-dm-vanilla-cinnamon-diabetes-care-powder-tin-of-1000-g-2-1647417415.jpg?dim=224x0&dpr=1&q=100",
+            "mrp": "1000",
+            "discount": "45%"
+        },
+        {
+            "alt": "Sheneed Vitamin B Overall Supplements Boosts Digestion & Energy -60 Tablets",
+            "srcSet": "https://cdn01.pharmeasy.in/dam/products_otc/J19593/sheneed-vitamin-b-overall-supplements-boosts-digestion-energy-60-tablets-2-1641284776.jpg?dim=224x0&dpr=1&q=100",
+            "mrp": "580",
+            "discount": "15%"
+        }
+    ]
+}
