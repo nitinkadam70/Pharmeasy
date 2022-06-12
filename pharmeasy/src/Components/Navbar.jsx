@@ -1,14 +1,16 @@
 import React from 'react'
 import styles from '../Styles/navbar.module.css'
 import { AiOutlineSearch } from "react-icons/ai";
-import { NavLink } from 'react-router-dom';
+import { Link, NavLink } from 'react-router-dom';
 
 const Navbar = () => {
     return (
         <>
             <div className={styles.navbar}>
                 <div className={styles.Logo}>
-                    <img className={styles.logoImg} src='https://assets.pharmeasy.in/web-assets/dist/fca22bc9.png' alt='logo' />
+                    <Link to="/">
+                        <img className={styles.logoImg} src='https://assets.pharmeasy.in/web-assets/dist/fca22bc9.png' alt='logo' />
+                    </Link>
                 </div>
                 <div className={styles.InputBox}>
                     <div className={styles.options}>
