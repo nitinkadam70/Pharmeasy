@@ -3,12 +3,11 @@ import { Flex, FooterLayout, Heddline, P, Para, ImageP, IconSocial } from './Sty
 import { BsInstagram, BsYoutube, BsTwitter } from "react-icons/bs";
 import { FaFacebookF } from "react-icons/fa";
 
-
 const Footer = () => {
 
     return (
         <FooterLayout>
-            <Flex>
+            <Flex >
                 <div>
                     <Heddline>Company</Heddline>
                     <P>About Us</P>
@@ -69,7 +68,7 @@ const Footer = () => {
             </Flex>
             <div>
                 <Heddline style={{ padding: "0px 0px 0px 150px" }}>Our payment partners</Heddline>
-                <div style={{ display: "wrap", justifyContent: "space-around" }}>
+                <div style={{ display: "flex", flexWrap: "wrap", justifyContent: 'right' }}>
                     <ImageP src="https://assets.pharmeasy.in/web-assets/dist/af0c6812.svg" alt="" />
                     <ImageP src="https://assets.pharmeasy.in/web-assets/dist/0e010044.svg" alt="" />
                     <ImageP src="https://assets.pharmeasy.in/web-assets/dist/1066bb1f.svg" alt="" />

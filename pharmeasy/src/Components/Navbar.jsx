@@ -2,6 +2,7 @@ import React from 'react'
 import styles from '../Styles/navbar.module.css'
 import { AiOutlineSearch } from "react-icons/ai";
 import { Link, NavLink } from 'react-router-dom';
+import { Center, Input } from '@chakra-ui/react'
 
 const Navbar = () => {
     return (
@@ -16,18 +17,20 @@ const Navbar = () => {
                     <div className={styles.options}>
                         <select className={styles.select}>
                             <option style={{ color: "teal" }} value="">Select Pincode</option>
-                            <option value="">431401</option>
-                            <option value="">431402</option>
-                            <option value="">431403</option>
-                            <option value="">431404</option>
+                            <option value="">Parbhani-MH-431401</option>
+                            <option value="">Pune-431402</option>
+                            <option value="">Mumbai-431403</option>
+                            <option value="">Bangluru-431404</option>
                         </select>
                     </div>
                     <div className={styles.inputDiv}>
-                        <input className={styles.input} type="text" placeholder='Search medicines/Healthcare products' />
+                        <Input variant='unstyled' className={styles.input} type="text" placeholder='Search medicines/Healthcare products' />
                     </div>
 
                     <div className={styles.searchdiv}>
-                        <AiOutlineSearch width='25px' height='25px' />
+                        <Center>
+                            <AiOutlineSearch/>
+                        </Center>
                     </div>
                 </div>
             </div>

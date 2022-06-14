@@ -6,7 +6,7 @@
     padding-left: 15px;
     padding-right: 15px;
     gap: 25px;
- 
+
 }
 
 .Logo {
@@ -20,16 +20,19 @@
 }
 
 .input {
-    height: 44px;
-    width: 555px;
-    letter-spacing: 0.2px;
+    height: 41.5px;
+    width: 100%;
+    letter-spacing: 0.5px;
+    border: none;
 
 }
 
 
 .InputBox {
-    max-width: 100%;
-    display: flex;
+
+    width: 65%;
+    display: grid;
+    grid-template-columns: 1fr 9fr 1fr;
     align-items: center;
     background-color: white;
     font-weight: 600;
@@ -40,8 +43,9 @@
 .options {
     width: 190px;
     color: #10847e;
-    height: 50px;
+    height: 48px;
     border-radius: 5px;
+    border: none;
 
 
 
@@ -52,22 +56,24 @@
     width: 100%;
     border-top-left-radius: 5px;
     border-bottom-left-radius: 5px;
-    border-right-color: white;
-    color:#10847e;
+    color: #10847e;
     font-weight: bold;
     letter-spacing: 0.2px;
+    border: none;
+    text-align: center;
 
 
 }
 
 .searchdiv {
+    
     border-left-color: white;
     color: gray;
-    background-color: #f4f7fb;
-    padding: 14px 15px;
-    height: 100%;
+    background-color: #e7e7e7;
+    max-height: 100%;
     border-top-right-radius: 5px;
     border-bottom-right-radius: 5px;
+    padding: 24% 0%;
 }
 
 .linksNavbar {
@@ -117,4 +123,39 @@
     font-size: 15px;
     margin-left: 4px;
     letter-spacing: 1px;
+
 }
+
+@media (max-width: 850px) {
+
+    .linksNavbar {
+        display: flex;
+        flex-wrap: wrap;
+    }
+
+}
+
+.input:focus {
+    outline: none;
+    box-shadow: none;
+}
+
+.select:focus {
+    outline: none;
+    box-shadow: none;
+
+}
+
+.labTestHover:hover {
+    border: 2px solid teal
+    
+    
+}
+
+.labTestHover:hover Button{
+    background-color: teal;
+    color:white;
+    
+    
+}
+

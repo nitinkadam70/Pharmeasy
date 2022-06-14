@@ -17,9 +17,11 @@ width: 100%;
 
 export const Flex = styled.div`
 display:flex;
+flex-wrap: wrap;
 justify-content:center;
 text-align: left;
 gap:4.5%;
+
 `;
 
 export const Heddline = styled.p`
@@ -46,10 +48,10 @@ line-height: 0.2;
 export const ImageP = styled.img`
 max-height: 30px;
 margin-right: 15px;
-` 
+`
 
 export const IconSocial = styled.div`
-width:20px;
+width:40px;
 height:40px;
 background:teal;
 border-radius:50%;
