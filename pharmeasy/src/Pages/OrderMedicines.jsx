@@ -7,8 +7,9 @@ import { useDispatch, useSelector } from 'react-redux';
 import { getOffers } from '../Redux/Offeres/action';
 import SliderSmall from '../Components/SliderSmall';
 import SlideShowOrederPage from '../Components/SlideShowOrederPage';
-
-
+import { IconButton } from '@chakra-ui/react'
+import { SearchIcon } from '@chakra-ui/icons'
+import { Skeleton, SkeletonCircle, SkeletonText } from '@chakra-ui/react'
 const OrderMedicinesImages = [
     "https://consumer-app-images.pharmeasy.in/marketing/comp_3step.jpg",
     "https://consumer-app-images.pharmeasy.in/marketing/comp_india_covered.jpg",
@@ -29,7 +30,7 @@ const OrderMedicines = () => {
             <br />
             <Flex gap='1%'>
                 <Text color='#4f85e' fontSize='12px' lineHeight='1.5'>Home </Text>
-                <IoIosArrowForward style={{ width: "12px",color:"#8897a2" }} />
+                <IoIosArrowForward style={{ width: "12px", color: "#8897a2" }} />
                 <Text color='#8897a2' fontSize='12px' lineHeight='1.5'>  Order Medicines Online</Text>
             </Flex>
             <br />
@@ -67,10 +68,13 @@ const OrderMedicines = () => {
                                 <Input variant='unstyled' className={styles.input} type="text" placeholder='Search medicines/Healthcare products' />
                             </div>
 
-                            <div className={styles.searchdiv} >
-                                <Center p='14% 0%'>
-                                    <AiOutlineSearch />
-                                </Center>
+                            <div >
+
+                                <div>
+                                    <Flex justifyContent='end'>
+                                        <IconButton aria-label='Search database' icon={<SearchIcon />} />
+                                    </Flex>
+                                </div>
                             </div>
                         </div>
                     </Box>
@@ -114,10 +118,11 @@ const OrderMedicines = () => {
             <br />
             {
                 loading ?
-                    <Center><Stack direction='row' spacing={4}>
-                        <Spinner size='xl' />
+                    <Stack>
+                        <Skeleton height='20px' />
+                        <Skeleton height='20px' />
+                        <Skeleton height='20px' />
                     </Stack>
-                    </Center>
 
                     : error ? 'error' :
                         <SliderSmall data={data} />

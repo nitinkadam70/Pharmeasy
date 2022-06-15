@@ -139,6 +139,15 @@
 
 }
 
+.gridOffers {
+    display: grid;
+    grid-template-columns: repeat(2, 500px);
+    align-items: center;
+    gap: 5%;
+    cursor: pointer;
+
+}
+
 @media (max-width: 850px) {
 
     .linksNavbar {
@@ -148,6 +157,10 @@
 
     .grid {
         display: grid;
+        grid-template-columns: repeat(1, 1fr);
+    }
+
+    .gridOffers {
         grid-template-columns: repeat(1, 1fr);
     }
 
@@ -175,9 +188,7 @@
 
 }
 
-.flex {
-
-}
+.flex {}
 
 .flex:hover {
     border: 2px solid teal;

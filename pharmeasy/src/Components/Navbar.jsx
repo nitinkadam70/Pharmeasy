@@ -1,9 +1,10 @@
 import React from 'react'
 import styles from '../Styles/navbar.module.css'
-import { AiOutlineSearch } from "react-icons/ai";
 import { Link, NavLink } from 'react-router-dom';
-import { Center, Input } from '@chakra-ui/react'
-
+import { Box, Center, Flex, Input } from '@chakra-ui/react'
+import { IconButton } from '@chakra-ui/react'
+import { SearchIcon } from '@chakra-ui/icons'
+import LoginSignup from '../Pages/LoginSignup';
 const Navbar = () => {
     return (
         <>
@@ -27,10 +28,10 @@ const Navbar = () => {
                         <Input variant='unstyled' className={styles.input} type="text" placeholder='Search medicines/Healthcare products' />
                     </div>
 
-                    <div className={styles.searchdiv}>
-                        <Center>
-                            <AiOutlineSearch />
-                        </Center>
+                    <div>
+                        <Flex justifyContent='end'>
+                            <IconButton aria-label='Search database' icon={<SearchIcon />} />
+                        </Flex>
                     </div>
                 </div>
             </div>
@@ -59,7 +60,7 @@ const Navbar = () => {
                     </div>
                     <div className={styles.icon}>
                         <img style={{ width: "24px", height: "24px", marginLeft: "14px" }} src="https://assets.pharmeasy.in/web-assets/dist/5eb42971.svg" alt="" />
-                        <NavLink className={styles.secondLink} to='/loginSignup'>Login/Signup</NavLink>
+                        <LoginSignup />
                     </div>
                     <div className={styles.icon}>
                         <img style={{ width: "24px", height: "24px", marginLeft: "14px" }} src="https://assets.pharmeasy.in/web-assets/dist/21b0b5ba.svg" alt="" />

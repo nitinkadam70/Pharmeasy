@@ -6,7 +6,7 @@ import { useDispatch, useSelector } from 'react-redux'
 import SlideShowOrederPage from '../Components/SlideShowOrederPage'
 import { getProducts } from '../Redux/HelthcareProducts/action'
 import styles from '../Styles/navbar.module.css'
-
+import {  SkeletonCircle, SkeletonText } from '@chakra-ui/react'
 const sliderdata = [
     "https://cms-contents.pharmeasy.in/banner/b7f811b4430-Supradyn-NDD.jpg",
     "https://cms-contents.pharmeasy.in/banner/3ab35ad135a-Cremaffin-June-SRP.jpg",
@@ -42,15 +42,10 @@ const HealthcareProducts = () => {
                 <br />
                 <div className={styles.grid}>
                     {loading ?
-                        <Center><Stack direction='row' spacing={4}>
-                            <Text color='#8897a2' marginBottom='5px'>Loading.....</Text>
-
-                            <Spinner size='xl' />
-
-
-
-                        </Stack>
-                        </Center>
+                        <Box padding='6' boxShadow='lg' bg='white'>
+                            <SkeletonCircle size='10' />
+                            <SkeletonText mt='4' noOfLines={4} spacing='4' />
+                        </Box>
 
                         : error ? 'error' :
                             data.map((item) => (
