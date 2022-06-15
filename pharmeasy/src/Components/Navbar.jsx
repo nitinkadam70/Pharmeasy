@@ -29,7 +29,7 @@ const Navbar = () => {
 
                     <div className={styles.searchdiv}>
                         <Center>
-                            <AiOutlineSearch/>
+                            <AiOutlineSearch />
                         </Center>
                     </div>
                 </div>

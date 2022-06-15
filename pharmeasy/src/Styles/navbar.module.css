@@ -66,7 +66,7 @@
 }
 
 .searchdiv {
-    
+
     border-left-color: white;
     color: gray;
     background-color: #e7e7e7;
@@ -85,6 +85,19 @@
     align-items: center;
 
 }
+
+.grid {
+    display: grid;
+    grid-template-columns: repeat(3, 32.22%);
+    grid-template-rows: 112px;
+    align-items: center;
+    gap: 2%;
+    cursor: pointer;
+
+
+}
+
+
 
 .links {
     display: flex;
@@ -133,6 +146,11 @@
         flex-wrap: wrap;
     }
 
+    .grid {
+        display: grid;
+        grid-template-columns: repeat(1, 1fr);
+    }
+
 }
 
 .input:focus {
@@ -148,14 +166,19 @@
 
 .labTestHover:hover {
     border: 2px solid teal
-    
-    
 }
 
-.labTestHover:hover Button{
+.labTestHover:hover Button {
     background-color: teal;
-    color:white;
-    
-    
+    color: white;
+
+
 }
 
+.flex {
+
+}
+
+.flex:hover {
+    border: 2px solid teal;
+}

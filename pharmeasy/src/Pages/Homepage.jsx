@@ -37,6 +37,7 @@ const miniFooter = [
 ]
 
 const Homepage = () => {
+
     const navigate = useNavigate();
     const dispatch = useDispatch();
     const { loading, error, data } = useSelector((store) => store.offers)
@@ -54,15 +55,15 @@ const Homepage = () => {
             <Slideshow />
             <br />
             <Flex >
-                <Box bg='white' p='4' w='100%' >
+                <Box bg='white' p='4' w='100%' onClick={() => navigate("/orderMedicines")} >
                     <Image maxW='100%' src="https://i.imgur.com/0uRtxpG.png" />
                 </Box>
                 <Spacer />
-                <Box p='4' w='100%' >
+                <Box p='4' w='100%' onClick={() => navigate("/healthcareProducts")}>
                     <Image maxW='100%' src='https://i.imgur.com/ZUWscdt.png' />
                 </Box>
                 <Spacer />
-                <Box p='4' w='100%' >
+                <Box p='4' w='100%' onClick={() => navigate("/labtests")}>
                     <Image maxW='100%' src='https://i.imgur.com/Q8N2YZt.png' />
                 </Box>
             </Flex>
@@ -117,8 +118,8 @@ const Homepage = () => {
             <Box>
                 <ProductSlider />
             </Box>
-<br />
-<br />
+            <br />
+            <br />
             <Box>
                 <Flex alignItems='center' justifyContent='space-between'>
                     {
@@ -134,7 +135,7 @@ const Homepage = () => {
                     }
                 </Flex>
                 <br />
-                <Image src='https://i.imgur.com/vGHEcqc.png'/>
+                <Image src='https://i.imgur.com/vGHEcqc.png' />
             </Box>
 
 

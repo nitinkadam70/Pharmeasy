@@ -4,6 +4,7 @@ import React from "react";
 import { Slide } from "react-slideshow-image";
 import { useNavigate } from 'react-router-dom'
 import styles from '../Styles/navbar.module.css'
+import { IoIosArrowForward } from "react-icons/io";
 
 const LabtestSlider = ({ data }) => {
     const navigate = useNavigate();
@@ -21,7 +22,7 @@ const LabtestSlider = ({ data }) => {
 
     };
 
-    
+
 
     const properties = {
         duration: 3000,
@@ -53,7 +54,7 @@ const LabtestSlider = ({ data }) => {
                 <Slide {...properties}>
                     {
                         data.map((item) => (
-                            <div style={style}  className={styles.labTestHover} onClick={() => navigate("/labtests")}>
+                            <div style={style} className={styles.labTestHover} onClick={() => navigate("/labtests")}>
 
 
                                 <Box >
@@ -67,7 +68,7 @@ const LabtestSlider = ({ data }) => {
                                     <Flex alignItems='center'>
                                         <Text>{item.price} Onwards</Text>
                                         <Spacer />
-                                        <Button color='teal'>Book Now </Button>
+                                        <Button color='teal'>Book Now <IoIosArrowForward /> </Button>
                                     </Flex>
                                 </Box>
                             </div>

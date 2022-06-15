@@ -190,5 +190,77 @@
             "mrp": "580",
             "discount": "15%"
         }
+    ],
+    "helthcareProduct": [
+        {
+            "img": "https://cdn01.pharmeasy.in/dam/discovery/categoryImages/16f3bef17dc730f89f381ed41ecb8000.png",
+            "title": "Skin Care",
+            "discount": "Upto 50% off"
+        },
+        {
+            "img": "https://cdn01.pharmeasy.in/dam/discovery/categoryImages/90931d91f15d326a9e439479d683e308.png",
+            "title": "Home Care",
+            "discount": "Upto 35% off"
+        },
+        {
+            "img": "https://cdn01.pharmeasy.in/dam/discovery/categoryImages/38b06b7e36883b49814d93076c5bf982.png",
+            "title": "Ayurvedic Care",
+            "discount": "Upto 70% off"
+        },
+        {
+            "img": "https://cdn01.pharmeasy.in/dam/discovery/categoryImages/271af64b5f373b17a68d7c061ddd337a.png",
+            "title": "Sexual Wellness",
+            "discount": "Upto 53% off"
+        },
+        {
+            "img": "https://cdn01.pharmeasy.in/dam/discovery/categoryImages/5f1f108206f43522b37c2e69070f8295.png",
+            "title": "Fitness & Supplements",
+            "discount": "Upto 80% off"
+        },
+        {
+            "img": "https://cdn01.pharmeasy.in/dam/discovery/categoryImages/8a416183822c33b392b5b4bfdac1a114.png",
+            "title": "Mother and Baby Care",
+            "discount": "Upto 50% off"
+        },
+        {
+            "img": "https://cdn01.pharmeasy.in/dam/discovery/categoryImages/8a416183822c33b392b5b4bfdac1a114.png",
+            "title": "HealthCare Devices",
+            "discount": "Upto 65% off"
+        },
+        {
+            "img": "https://cdn01.pharmeasy.in/dam/discovery/categoryImages/b276b1a47a1538bf85cac04573dae05a.png",
+            "title": "Surgicals and Dressings",
+            "discount": "Upto 55% off"
+        },
+        {
+            "img": "https://cdn01.pharmeasy.in/dam/discovery/categoryImages/0afc410f50543e4785ec9af3f2a42fda.png",
+            "title": "Health Condition",
+            "discount": "Upto 60% off"
+        },
+        {
+            "img": "https://cdn01.pharmeasy.in/dam/discovery/categoryImages/8c202391ef21315ab4b5083250d358b2.png",
+            "title": "Diabetic Care",
+            "discount": "Upto 65% off"
+        },
+        {
+            "img": "https://cdn01.pharmeasy.in/dam/discovery/categoryImages/cf2abb21564d3038bdf9fd5b710ea321.png",
+            "title": "Elderly Care",
+            "discount": "Upto 45% off"
+        },
+        {
+            "img": "https://cdn01.pharmeasy.in/dam/discovery/categoryImages/d97ea33273a530a493b73c61d28a609b.png",
+            "title": "Accessories And Wearables",
+            "discount": "Upto 35% off"
+        },
+        {
+            "img": "https://cdn01.pharmeasy.in/dam/discovery/categoryImages/f0c48bce571139dab2349cdf45b84b29.png",
+            "title": "Aceessories ",
+            "discount": "Upto 50% off"
+        },
+        {
+            "img": "https://cdn01.pharmeasy.in/dam/discovery/categoryImages/64e2a560805f3c0c91bb63a7f64f71df.jpg",
+            "title": "Beauty",
+            "discount": "Upto 50% off"
+        }
     ]
 }
