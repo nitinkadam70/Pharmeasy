@@ -6,7 +6,8 @@ import {
     MenuOptionGroup,
     MenuDivider,
     Button,
-    Radio
+    Radio,
+    Input
 } from '@chakra-ui/react'
 import React, { useEffect, useState } from 'react'
 import { useDispatch } from 'react-redux'
@@ -14,8 +15,8 @@ import { useSearchParams } from 'react-router-dom'
 import { getAllProducts } from '../Redux/AllProducts/action'
 
 const FilterData = () => {
-
     const dispatch = useDispatch()
+    const [text, setText] = useState("")
     const [searchParams, setSearchParams] = useSearchParams()
     const [categoryValues, setCategoryValues] = useState(
         searchParams.getAll("Category") || []
@@ -28,14 +29,16 @@ const FilterData = () => {
     }
 
     useEffect(() => {
-        if (categoryValues) {
-            setSearchParams({ Category: categoryValues }, { replace: true })
+        if (categoryValues || text) {
+            setSearchParams({ Category: categoryValues, q: text }, { replace: true })
+
             let params = {
-                Category: searchParams.getAll('Category')
+                Category: searchParams.getAll('Category'),
+                q: text
             }
             dispatch(getAllProducts(params))
         }
-    }, [categoryValues, setSearchParams, searchParams])
+    }, [categoryValues, setSearchParams, searchParams, text])
     return (
 
         <Box w='300px' p='1rem 2rem' display={{ base: 'none', md: 'block' }}>
@@ -61,7 +64,13 @@ const FilterData = () => {
                     <Checkbox value='Gel'>Gel</Checkbox>
                     <Checkbox value='Baby Product'>Baby Product</Checkbox>
                     <Checkbox value='device'>device</Checkbox>
+                    <br />
+                    <Text margin='5% 0%' fontWeight='bold'>Search Product</Text>
+                    <Input value={text} onChange={(e) => setText(e.target.value)} placeholder='Search' />
+                    <hr />
+
                 </VStack>
+
             </CheckboxGroup>
         </Box>
 
