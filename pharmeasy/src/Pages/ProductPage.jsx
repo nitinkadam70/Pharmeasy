@@ -5,6 +5,7 @@ import { IoIosArrowForward } from 'react-icons/io'
 import { useDispatch, useSelector } from 'react-redux'
 import FilterData from '../Components/FilterData'
 import ProductCard from '../Components/ProductCard'
+import SortingHeader from '../Components/SortingHeader'
 import { getAllProducts } from '../Redux/AllProducts/action'
 
 const ProductPage = () => {
@@ -30,15 +31,7 @@ const ProductPage = () => {
 
                     <Box><FilterData /></Box>
                     <Box>
-                        <Flex justifyContent='space-between' alignItems='center'>
-                            <Heading as='h3'>Health Food and Drinks</Heading>
-                            <Flex alignItems='center'>
-                                <Text marginRight='20px'>Sort by : </Text>
-                                <Select w='200px'>
-                                    <option>Popularity</option>
-                                </Select>
-                            </Flex>
-                        </Flex>
+                        <SortingHeader />
                         <br />
                         <br />
                         <br />

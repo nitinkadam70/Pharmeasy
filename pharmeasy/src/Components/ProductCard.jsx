@@ -67,7 +67,7 @@ export default function ProductCard({ Category, srcSet, alt, mrp, discount }) {
                     color='#fff'
                     borderRadius='6px 0 0 0'
                     backgroundImage='https://assets.pharmeasy.in/web-assets/dist/1602b4ce.svg' position='absolute' >
-                    {discount} OFF
+                    {discount}% OFF
                 </Box>
 
                 <Stack pt={10} align={'center'}>

@@ -14,7 +14,7 @@ import { useSearchParams } from 'react-router-dom'
 import { getAllProducts } from '../Redux/AllProducts/action'
 
 const FilterData = () => {
-    
+
     const dispatch = useDispatch()
     const [searchParams, setSearchParams] = useSearchParams()
     const [categoryValues, setCategoryValues] = useState(
@@ -30,17 +30,17 @@ const FilterData = () => {
     useEffect(() => {
         if (categoryValues) {
             setSearchParams({ Category: categoryValues }, { replace: true })
-        let params = {
-            Category:searchParams.getAll('Category')
+            let params = {
+                Category: searchParams.getAll('Category')
+            }
+            dispatch(getAllProducts(params))
         }
-        dispatch(getAllProducts(params))
-        }
-    }, [categoryValues, setSearchParams,searchParams])
+    }, [categoryValues, setSearchParams, searchParams])
     return (
 
         <Box w='300px' p='1rem 2rem' display={{ base: 'none', md: 'block' }}>
             <Text fontSize='2xl'>Filters</Text>
-            <Text margin='5% 0%'>Category</Text>
+            <Text fontWeight='bold' margin='5% 0%'>Category</Text>
             <Radio margin='5% 0%' defaultChecked >Health Food and Drinks</Radio>
             <hr />
             <br />
@@ -51,6 +51,8 @@ const FilterData = () => {
                 colorScheme='green'
             >
                 <VStack alignItems={'baseline'}>
+                    <Text margin='5% 0%' fontWeight='bold'>Sub Category</Text>
+                    <hr />
                     <Checkbox value="Drinks">Drinks</Checkbox>
                     <Checkbox value="Protein">Protein</Checkbox>
                     <Checkbox value='Ayurvedic'>Ayurvedic</Checkbox>
