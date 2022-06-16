@@ -11,6 +11,9 @@ import LabtestSlider from '../Components/LabtestSlider'
 import { getLabtest } from '../Redux/Labtest/action'
 import ProductSlider from '../Components/ProductSlider'
 import { Heddline } from '../Components/Styled'
+import MedocomeSlider from '../Components/MedocomeSlider'
+import { getAllProducts } from '../Redux/AllProducts/action'
+import Timer from '../Components/Timer'
 
 const miniFooter = [
     {
@@ -42,11 +45,13 @@ const Homepage = () => {
     const dispatch = useDispatch();
     const { loading, error, data } = useSelector((store) => store.offers)
     const labTest = useSelector((store) => store.labTest)
+    const allProduct = useSelector((store) => store.allProduct)
 
 
     useEffect(() => {
         dispatch(getOffers())
         dispatch(getLabtest())
+        dispatch(getAllProducts())
     }, [dispatch])
 
 
@@ -120,8 +125,29 @@ const Homepage = () => {
             </Box>
             <br />
             <br />
+            <Flex bg='#d4e2fa' p='1%' alignItems='center'>
+                <Img src='https://assets.pharmeasy.in/web-assets/dist/cc9b301d.svg' />
+                <Heading p='1rem' color='#4f585e' fontSize='20px' fontWeight='700' lineHeight='1.5'>Deals of the Day</Heading>
+                <Box h='35px' w='2.5px' bg='#f76b6d'></Box>
+
+                <Box paddingLeft='25px'>
+                    <Timer />
+                </Box>
+            </Flex>
+            <Box bg="#d4e2fa" h='auto'>
+                {
+                    labTest.loading ? <Center><Stack direction='row' spacing={4}>
+                        <Spinner size='xl' />
+                    </Stack>
+                    </Center> : labTest.error ? "error" :
+                        <MedocomeSlider data={allProduct.data} />
+                }
+
+            </Box>
+            <br />
+            <br />
             <Box>
-                <Flex alignItems='center' justifyContent='space-between'>
+                <Flex flexWrap='wrap' alignItems='center' justifyContent='space-between'>
                     {
                         miniFooter.map((item) => (
                             <>

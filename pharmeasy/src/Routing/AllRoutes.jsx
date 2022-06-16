@@ -7,7 +7,7 @@ import LabTests from '../Pages/LabTests'
 import LoginSignup from '../Pages/LoginSignup'
 import Offers from '../Pages/Offers'
 import OrderMedicines from '../Pages/OrderMedicines'
-import RTPCR from '../Pages/RTPCR'
+import ProductPage from '../Pages/ProductPage'
 const AllRoutes = () => {
     return (
         <Routes>
@@ -15,7 +15,7 @@ const AllRoutes = () => {
             <Route path='/orderMedicines' element={<OrderMedicines />} />
             <Route path='/healthcareProducts' element={<HealthcareProducts />} />
             <Route path='/labtests' element={<LabTests />} />
-            <Route path='/rtpcr' element={<RTPCR />} />
+            <Route path='/productpage' element={<ProductPage />} />
             <Route path='/offers' element={<Offers />} />
             <Route path='/loginSignup' element={<LoginSignup />} />
             <Route path='/cart' element={<Cart />} />

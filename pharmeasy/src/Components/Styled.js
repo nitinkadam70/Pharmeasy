@@ -8,11 +8,7 @@ background-color: #f4f7fb;;
 min-height: 100px;
 padding-top: 10px;
 padding-bottom: 10px;
-text-align: -webkit-center;
 color: #ffffff;
-left: 0;
-bottom: 0;
-width: 100%;
 `;
 
 export const Flex = styled.div`

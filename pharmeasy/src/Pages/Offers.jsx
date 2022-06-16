@@ -21,7 +21,7 @@ const Offers = () => {
     }, [dispatch])
     return (
         <>
-            <Box width='80%' margin='auto' h='110rem'>
+            <Box width='80%' margin='auto' >
                 <br />
                 <Flex gap='1%'>
                     <Text color='#4f85e' fontSize='12px' lineHeight='1.5'>Home </Text>
@@ -54,7 +54,7 @@ const Offers = () => {
                 <div className={styles.gridOffers}>
                     {
                         data.map((item) => (
-                            <Box w='500px' h='191px'>
+                            <Box w='500px' h='191px' marginBottom='10%'>
                                 <Flex gap='4%' h='180px' boxShadow="rgba(0, 0, 0, 0.05) 0px 0px 0px 1px, rgb(209, 213, 219) 0px 0px 0px 1px inset" p='5% 2%' borderRadius='6px' alignItems='center' >
                                     <Box w='62px'>
                                         <Image maxW='62px' src={item.img} />
@@ -66,7 +66,7 @@ const Offers = () => {
                                         </Text>
                                     </Box>
                                 </Flex>
-                                <Flex border='1px solid #4f585e' borderRadius='6px' p='2% 4%'>
+                                <Flex border='1px solid #4f585e' borderRadius='6px' p='2% 4%' boxShadow="rgba(0, 0, 0, 0.05) 0px 0px 0px 1px, rgb(209, 213, 219) 0px 0px 0px 1px inset">
                                     <Text>Code : {item.Code}</Text>
                                     <Spacer />
                                     <Text color='#10847e' fontWeight='700'>Copy Code</Text>

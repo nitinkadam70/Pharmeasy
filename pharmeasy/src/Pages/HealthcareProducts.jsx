@@ -6,7 +6,8 @@ import { useDispatch, useSelector } from 'react-redux'
 import SlideShowOrederPage from '../Components/SlideShowOrederPage'
 import { getProducts } from '../Redux/HelthcareProducts/action'
 import styles from '../Styles/navbar.module.css'
-import {  SkeletonCircle, SkeletonText } from '@chakra-ui/react'
+import { SkeletonCircle, SkeletonText } from '@chakra-ui/react'
+import { useNavigate } from 'react-router-dom'
 const sliderdata = [
     "https://cms-contents.pharmeasy.in/banner/b7f811b4430-Supradyn-NDD.jpg",
     "https://cms-contents.pharmeasy.in/banner/3ab35ad135a-Cremaffin-June-SRP.jpg",
@@ -18,7 +19,7 @@ const sliderdata = [
     "https://cms-contents.pharmeasy.in/banner/3ab35ad135a-Cremaffin-June-SRP.jpg"
 ]
 const HealthcareProducts = () => {
-
+    const navigate = useNavigate()
     const { loading, data, error } = useSelector((store) => store.healthCare);
     const dispatch = useDispatch();
 
@@ -49,7 +50,7 @@ const HealthcareProducts = () => {
 
                         : error ? 'error' :
                             data.map((item) => (
-                                <Flex className={styles.flex} key={item.img} borderRadius='6px' border='1px solid #dfe3e6' p='5%' alignItems='center'>
+                                <Flex onClick={() => navigate("/ProductPage")} className={styles.flex} key={item.img} borderRadius='6px' border='1px solid #dfe3e6' p='5%' alignItems='center'>
                                     <Img w='60px' h='60px' src={item.img} />
                                     <Text
                                         fontSize='16px'

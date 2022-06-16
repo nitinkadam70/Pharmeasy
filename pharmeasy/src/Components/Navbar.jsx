@@ -1,10 +1,17 @@
 import React from 'react'
 import styles from '../Styles/navbar.module.css'
 import { Link, NavLink } from 'react-router-dom';
-import { Box, Center, Flex, Input } from '@chakra-ui/react'
+import { Box, Center, Flex, Input, Stack } from '@chakra-ui/react'
 import { IconButton } from '@chakra-ui/react'
-import { SearchIcon } from '@chakra-ui/icons'
+import { AddIcon, HamburgerIcon, SearchIcon } from '@chakra-ui/icons'
 import LoginSignup from '../Pages/LoginSignup';
+import {
+    Menu,
+    MenuButton,
+    MenuList,
+    MenuItem,
+
+} from '@chakra-ui/react'
 const Navbar = () => {
     return (
         <>
@@ -34,6 +41,32 @@ const Navbar = () => {
                         </Flex>
                     </div>
                 </div>
+
+                <Menu >
+                    <MenuButton
+                        className={styles.menu}
+                        display='none'
+                        bg='white'
+                        as={IconButton}
+                        aria-label='Options'
+                        icon={<HamburgerIcon />}
+                        variant='outline'
+                    />
+                    <MenuList >
+                        <Stack>
+                            <NavLink to='/orderMedicines'>Order Medicines</NavLink>
+                            <NavLink to='/healthcareProducts'>Healthcare Products</NavLink>
+                            <NavLink to='/labtests'>Lab Tests</NavLink>
+                            <NavLink to='/offers'>Offers</NavLink>
+                            <NavLink to='/cart'>Cart</NavLink>
+                            <LoginSignup />
+                        </Stack>
+
+
+
+                    </MenuList>
+                </Menu>
+
             </div>
 
             <div className={styles.linksNavbar}>
@@ -49,9 +82,7 @@ const Navbar = () => {
                     <div>
                         <NavLink className={styles.NavLink} to='/labtests'>Lab Tests</NavLink>
                     </div>
-                    <div>
-                        <NavLink className={styles.NavLink} to='/rtpcr'>RTPCR</NavLink>
-                    </div>
+
                 </div>
                 <div className={styles.links}>
                     <div className={styles.icon}>
