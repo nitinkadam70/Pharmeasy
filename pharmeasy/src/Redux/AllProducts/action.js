@@ -18,10 +18,14 @@ export const getAllProductsDataFailure = () => ({
     type: GET_ALLPRODUCT_DATA_FAILURE
 })
 
-export const getAllProducts = () => (dispatch) => {
+export const getAllProducts = (payload) => (dispatch) => {
 
     dispatch(getAllProductsDataRequest())
-    axios.get("http://localhost:3000/productsTwo")
+    axios.get("http://localhost:3000/productsTwo", {
+        params: {
+            ...payload
+        }
+    })
         .then((res) => { dispatch(getAllProductsDataSuccess(res.data)) })
         .catch((err) => { dispatch(getAllProductsDataFailure()) })
 }

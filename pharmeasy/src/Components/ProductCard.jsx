@@ -9,9 +9,12 @@ import {
     Img,
 } from '@chakra-ui/react';
 
+export default function ProductCard({ Category, srcSet, alt, mrp, discount }) {
 
-export default function ProductSimple({ Category, srcSet, alt, mrp, discount }) {
+    
     return (
+
+
         <Center py={2} >
 
             <Box
@@ -86,5 +89,6 @@ export default function ProductSimple({ Category, srcSet, alt, mrp, discount }) 
                 </Stack>
             </Box>
         </Center>
+
     );
 }
