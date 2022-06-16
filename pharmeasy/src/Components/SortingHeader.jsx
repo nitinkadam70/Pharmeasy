@@ -10,9 +10,9 @@ const SortingHeader = () => {
     const [searchParams, setSearchParams] = useSearchParams()
     const [selectedValues, setSelectedValues] = useState()
 
+
     useEffect(() => {
         if (selectedValues) {
-            
             setSearchParams({ _sort: "mrp", _order: selectedValues }, { replace: true })
             let params = {
                 _sort: "mrp",

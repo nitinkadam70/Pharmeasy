@@ -1,14 +1,4 @@
-import {
-    Box, Text, Checkbox, CheckboxGroup, VStack, Menu,
-    MenuButton,
-    MenuList,
-    MenuItemOption,
-    MenuOptionGroup,
-    MenuDivider,
-    Button,
-    Radio,
-    Input
-} from '@chakra-ui/react'
+import { Box, Text, Checkbox, CheckboxGroup, VStack, Radio, Input } from '@chakra-ui/react'
 import React, { useEffect, useState } from 'react'
 import { useDispatch } from 'react-redux'
 import { useSearchParams } from 'react-router-dom'
