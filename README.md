@@ -20,7 +20,6 @@ also run Json-server
    <li>React</li>
    <li>Redux</li>
    <li>Routing</li>
-  <li>Node js</li>
    <li>Chakra UI</li>
   </ol>
   
