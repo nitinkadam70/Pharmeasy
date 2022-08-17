@@ -21,7 +21,7 @@ export const getProductsDataFailure = () => ({
 export const getProducts = () => (dispatch) => {
 
     dispatch(getProductsDataRequest())
-    axios.get("http://localhost:3000/helthcareProduct")
+    axios.get(`${process.env.REACT_APP_API_URL}/helthcareProduct`)
         .then((res) => { dispatch(getProductsDataSuccess(res.data)) })
         .catch((err) => { dispatch(getProductsDataFailure()) })
 }

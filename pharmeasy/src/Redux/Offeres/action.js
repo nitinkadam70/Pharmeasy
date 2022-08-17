@@ -21,7 +21,7 @@ export const getOffersDataFailure = () => ({
 export const getOffers = () => (dispatch) => {
 
     dispatch(getOffersDataRequest())
-    axios.get("http://localhost:3000/offers")
+    axios.get(`${process.env.REACT_APP_API_URL}/offers`)
         .then((res) => { dispatch(getOffersDataSuccess(res.data)) })
         .catch((err) => { dispatch(getOffersDataFailure()) })
 }

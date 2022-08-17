@@ -21,7 +21,7 @@ export const getLabtestDataFailure = () => ({
 export const getLabtest = () => (dispatch) => {
 
     dispatch(getLabtestDataRequest())
-    axios.get("http://localhost:3000/labTest")
+    axios.get(`${process.env.REACT_APP_API_URL}/labTest`)
         .then((res) => { dispatch(getLabtestDataSuccess(res.data)) })
         .catch((err) => { dispatch(getLabtestDataFailure()) })
 }
