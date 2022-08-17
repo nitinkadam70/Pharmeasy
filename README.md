@@ -5,11 +5,7 @@ In the project directory, you can run:
 
 ### `npm start`
 
-also run Json-server
-
-### `json-sever --watch db.json`
-
-<h1>Link : </h1> https://pharmeasy-clone-nitin-fw14-628.netlify.app/
+<h1>Link : </h1> https://pharmeasy-clone-nitinkadam.netlify.app/
 
 
 # Teck Stack
