@@ -4,3 +4,8 @@
     text-decoration-line: underline;
     text-underline-offset: 8px;
 }
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}

@@ -37,7 +37,7 @@ const Navbar = () => {
 
                     <div>
                         <Flex justifyContent='end'>
-                            <IconButton aria-label='Search database' icon={<SearchIcon />} />
+                            <IconButton minH='3rem' aria-label='Search database' icon={<SearchIcon/>} />
                         </Flex>
                     </div>
                 </div>
@@ -81,6 +81,9 @@ const Navbar = () => {
                     </div>
                     <div>
                         <NavLink className={styles.NavLink} to='/labtests'>Lab Tests</NavLink>
+                    </div>
+                    <div>
+                        <NavLink className={styles.NavLink} to='/ProductPage'>Products</NavLink>
                     </div>
 
                 </div>

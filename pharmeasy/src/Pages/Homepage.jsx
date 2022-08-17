@@ -74,7 +74,7 @@ const Homepage = () => {
             </Flex>
             <br />
             <Box w='100%'>
-                <Img maxW='100%' src='https://i.imgur.com/JJecxvy.png
+                <Img minW='100%' src='https://i.imgur.com/JJecxvy.png
 '/>
             </Box>
             <br />
@@ -161,7 +161,7 @@ const Homepage = () => {
                     }
                 </Flex>
                 <br />
-                <Image src='https://i.imgur.com/vGHEcqc.png' />
+                <Image minW='100%' src='https://i.imgur.com/vGHEcqc.png' />
             </Box>
 
 
