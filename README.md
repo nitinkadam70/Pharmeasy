@@ -16,6 +16,7 @@ In the project directory, you can run:
    <li>React</li>
    <li>Redux</li>
    <li>Routing</li>
+   <li>JSON-server</li>
    <li>Chakra UI</li>
   </ol>
   
