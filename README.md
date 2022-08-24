@@ -7,6 +7,13 @@ In the project directory, you can run:
 
 <h1>Link : </h1> https://pharmeasy-clone-nitinkadam.netlify.app/
 
+# Features
+<ol>
+<li>Indicators - Loading, success & error</li>
+<li>Various method to sort product on products page</li>
+<li>Responsive website</li>
+<li>Slider's</li>
+</ol>
 
 # Teck Stack
 <ol>
