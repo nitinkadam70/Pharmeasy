@@ -13,7 +13,6 @@ import {
 export default function ProductSimple({ Category, srcSet, alt, mrp, discount }) {
     return (
         <Center py={2} >
-
             <Box
                 role={'group'}
                 p={6}

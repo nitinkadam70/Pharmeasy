@@ -117,7 +117,7 @@ const ProductSlider = () => {
                 <Slide {...properties}>
                     {
                         products.map((item) => (
-                            <div style={style} onClick={() => navigate("/healthcareProducts")}>
+                            <div key={Math.random() * 1000} style={style} onClick={() => navigate("/healthcareProducts")}>
 
 
                                 <Box >
