@@ -9,8 +9,9 @@ In the project directory, you can run:
 
 # Features
 <ol>
-<li>Indicators - Loading, success & error</li>
 <li>Various method to sort product on products page</li>
+<li>Implementing debouncing for searching products</li>
+<li>Indicators - Loading, success & error</li>
 <li>Responsive website</li>
 <li>Slider's</li>
 </ol>
